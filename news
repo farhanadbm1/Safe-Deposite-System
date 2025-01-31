@@ -1,0 +1,28 @@
+ <section>
+        <h2>Latest News</h2>
+        <article>
+          <h3>Article Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut leo sagittis, euismod velit at, malesuada mi. Nam vitae sapien sit amet turpis consequat viverra id id nunc.</p>
+          <a href="#">Read More</a>
+        </article>
+        <article>
+          <h3>Article Title</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut leo sagittis, euismod velit at, malesuada mi. Nam vitae sapien sit amet turpis consequat viverra id id nunc.</p>
+          <a href="#">Read More</a>
+        </article>
+      </section>
+      <section>
+        <h2>Upcoming Events</h2>
+        <article>
+          <h3>Event Title</h3>
+          <p>Date: Month Day, Year</p>
+          <p>Location: Address, City, State</p>
+          <a href="#">Learn More</a>
+        </article>
+        <article>
+          <h3>Event Title</h3>
+          <p>Date: Month Day, Year</p>
+          <p>Location: Address, City, State</p>
+          <a href="#">Learn More</a>
+        </article>
+      </section>

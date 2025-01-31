@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		input[type="text"] {
+			padding: 10px;
+			margin: 10px;
+			width: 300px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			font-size: 16px;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px;
+			margin: 10px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+
+		label {
+			font-size: 16px;
+			font-weight: bold;
+			margin-bottom: 5px;
+            margin-right: 0%;
+		}
+
+		h1 {
+			text-align: center;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Create Account</h1>
+	<form action="cracnt.php" method="post">
+		<label for="rg_id">Registration ID:</label>
+		<input type="text" id="rg_id" name="rg_id" required>
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="phoneno">Phone number:</label>
+		<input type="text" id="phoneno" name="phoneno" required>
+		<label for="box_id">Box ID:</label>
+		<input type="text" id="box_id" name="box_id" required>
+		<label for="bank_branch">Hair Color:</label>
+		<input type="text" id="bank_branch" name="bank_branch" required>
+		<label for="eyeclr">Eye Color:</label>
+		<input type="text" id="eyeclr" name="eyeclr" required>
+		<label for="height">Height : (Feet)</label>
+		<input type="text" id="height" name="height" required>
+		<label for="weight">Weight: (Kg)</label>
+		<input type="text" id="weight" name="weight" required>
+		<label for="city">Adress: (District,village,Road NO, Bilding No) </label>
+		<input type="text" id="city" name="city" required>
+		<input type="submit" value="Create">
+	</form>
+</body>
+</html>

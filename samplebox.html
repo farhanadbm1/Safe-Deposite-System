@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Centered and Scrolling Content</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: row;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.container {
+			width: 50%;
+			height: 50%;
+			overflow: auto;
+			border: 1px solid #ccc;
+			padding: 10px;
+			box-sizing: border-box;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.bs {
+			margin: 10px;
+			background-color: #f0f0f0;
+			padding: 10px;
+			box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+			border-radius: 5px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="bs">Item 1</div>
+		<div class="bs">Item 2</div>
+		<div class="bs">Item 3</div>
+		<div class="bs">Item 4</div>
+		<div class="bs">Item 5</div>
+		<div class="bs">Item 6</div>
+		<div class="bs">Item 7</div>
+		<div class="bs">Item 8</div>
+		<div class="bs">Item 9</div>
+		<div class="bs">Item 10</div>
+	</div>
+</body>
+</html>

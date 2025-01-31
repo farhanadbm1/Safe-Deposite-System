@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up</title>
+	<style>
+		body {
+			background-color: #f1f1f1;
+			font-family: Arial, sans-serif;
+		}
+
+		form {
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+			padding: 20px;
+			margin: 20px auto;
+			max-width: 500px;
+		}
+
+		h1 {
+			color: #333;
+			text-align: center;
+		}
+
+		label {
+			color: #333;
+			display: block;
+			margin-bottom: 5px;
+		}
+
+		input[type="text"], input[type="email"], input[type="password"] ,input[type="number"]{
+			border: none;
+			border-radius: 5px;
+			box-sizing: border-box;
+			display: block;
+			margin-bottom: 20px;
+			padding: 10px;
+			width: 100%;
+			color: rgb(24, 27, 26);
+			background-color: rgb(172, 238, 178);
+			
+		}
+
+		button {
+			background-color: #4CAF50;
+			border: none;
+			border-radius: 5px;
+			color: #fff;
+			cursor: pointer;
+			padding: 10px 20px;
+			
+		}
+
+		button:hover {
+			background-color: #3e8e41;
+		}
+
+		.error {
+			color: red;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<form action="acount.php" method="POST">
+		<h1>Open Account</h1>
+		<label for="account_id">account id:</label>
+<input type="number" id="account_id" name="account_id" required>
+
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		
+        <label for="b_id">Box id:</label>
+		<input type="number" id="b_id" name="b_id" required>
+		<button type="submit" name="submit">Submit</button>
+	</form>
+</body>
+</html>
